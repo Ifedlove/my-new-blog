@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body> 
+<div class="navigation">
+    <div class="header">
+        flick<i>r</i><sup>&reg</sup>
+        <b>from</b><em>YAHOO!</em>
+        
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="post_list.html">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="login.html"> Login</a></li>
+        </ul>
+    </div>
+    <div class="sign">
+        <a href="signUp.html">Sign up</a>
+    </div>
+    <div class="search">
+        <input type="search" name="text" id="sea"/>
+        <input type="submit" name="search" value="Search" id="sub"/>
+    </div>
+</div>
+<!--section-->
+<div class="section">
+    <div class="share">share your life</br>
+    <b>in photos</b></div>
+    <div id="but"><button name="sign-up">sign-up now </button></div>
+    
+</div>
+<div class="link">
+    <p>&copy by <a href='mailto:dloveade@gmail.com'>Ifeoluwa</a></p>
+</div>
+<div class="content">
+    <div class="content1">
+        <h1>Upload</h1>
+        <h2>More ways to get your photos online.</h2>
+        <p>multiple ways to upload your photos to flickr through the web, your mobile device, email or your
+        favourite photo applications.</p>
+    </div>
+    <div class="content2">
+        <h1>Discover</h1>
+        <h2>see what's going on your world.</h2>
+        <p>Keep up with your friends and share your stories with comments & notes. Add rich informations
+        like tags, locations & people.</p>
+    </div>
+    <div class="content3">
+        <h1>Share</h1>
+        <h2>Your photo everywhere you are.</h2>
+        <p>Upload your photo once to flickr, then easily and safely share them through Facebook, Twitter,
+        email, blogs and more.</p>
+        <a href=''><img src={% static 'images/fb.png' %}></img></a>
+        <a href=''><img src={% static 'images/gmail.png' %}></img></a>
+        <a href=''><img src={% static 'images/twitter.jpg' %}></img></a>
+        <a href=''><img src={% static 'images/whatsapp.png' %}></img></a>
+        <a href=''><img src={% static 'images/twitter-logo.png' %}></img></a>
+    </div>
+</div>
+<div class="account">
+    <div class="sign-up">
+        <input type="submit" name="sign up now" value="Sign up now"/></br>
+        <a href=''>or learn more</a>
+    </div>
+    <div class="sign-in">
+        It takes less than a minute to create your own account & start sharing!</br>
+        <a href='m.facebook.com'><img src={% static 'images/fb.png' %} align="left"></img></a><i>Have a Facebook account? 
+        you can use that to login!<i>
+        
+    </div>
+</div>
+
+<div class="footer">
+    <div class="privacy">
+    <p>Info</p>
+    <ul>
+        <li><a href=''>privacy</a><li>
+        <li><a href=''>policy</a></li>
+        <li><a href=''>Terms & conditions</a></li>
+    </ul>
+    </div>
+    <div class="contact">
+    <p>Contact</p>
+    <ul>
+        <li><a href=''>email</a></li>
+        <li><a href=''>mobile</a></li>
+        <li><a href=''>website</a></li>
+        <li><a href=''>Address</a></li>
+    </ul>
+    </div>
+    
+    <div class="follow">
+        <p>Follow, Like & Subscribe<p>
+        <ul>
+            <li><a href=''>Facebook</a></li>
+            <li><a href=''>Twitter</a></li>
+            <li><a href=''>Youtube</a></li>
+            <li><a href=''>Instagram</a></li>
+        </ul>
+    </div>
+
+</div>
+<p id="copy">&copy copyright 2021</p>
+
+
+</div>
+</body>
+</html>
